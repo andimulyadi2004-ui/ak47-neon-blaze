@@ -4,7 +4,7 @@ Add-on senjata **AK-47** dengan **model 3D penuh** (bukan sekadar ikon 2D) untuk
 **Minecraft Bedrock / MCPE 1.26.40+**. Warna sengaja dibuat kontras tinggi:
 baja gelap kebiruan, kayu oranye menyala, aksen emas, dan garis cyan neon.
 
-![preview](preview/ak47_preview.png)
+![AK-47 Neon Blaze](preview/banner.svg)
 
 ## Isi add-on
 
