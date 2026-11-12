@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§6AK-47 Neon Blaze §rBP",
+    "description": "Behavior pack: senjata AK-47 dengan model 3D penuh (Bedrock 1.26.40)",
+    "uuid": "0ad1a3f6-38e7-4327-83f9-b7d028ddaddd",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 40]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "677d447d-012b-4f24-bd7b-494872315df7",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["andimulyadi2004-ui"],
+    "license": "MIT",
+    "product_type": "addon"
+  }
+}

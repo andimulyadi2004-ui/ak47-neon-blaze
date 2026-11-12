@@ -1,0 +1,25 @@
+{
+  "format_version": "1.26.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ak47:ak47"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "IGG",
+      "ISS",
+      "WRW"
+    ],
+    "key": {
+      "I": { "item": "minecraft:iron_ingot" },
+      "G": { "item": "minecraft:gold_ingot" },
+      "S": { "item": "minecraft:stick" },
+      "W": { "item": "minecraft:oak_planks" },
+      "R": { "item": "minecraft:redstone" }
+    },
+    "result": {
+      "item": "ak47:ak47",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§bAK-47 Neon Blaze §rRP",
+    "description": "Resource pack: model 3D, ikon, dan tekstur AK-47 (Bedrock 1.26.40)",
+    "uuid": "90e5c027-8fef-48ef-95c0-6b2efaf0cedc",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 40]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "e5b7436d-2623-44ef-bd80-e0761ac1967a",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "0ad1a3f6-38e7-4327-83f9-b7d028ddaddd",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["andimulyadi2004-ui"],
+    "license": "MIT",
+    "product_type": "addon"
+  }
+}

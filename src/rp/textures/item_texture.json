@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "ak47_neon_blaze",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "ak47_icon": {
+      "textures": "textures/items/ak47_icon"
+    }
+  }
+}
