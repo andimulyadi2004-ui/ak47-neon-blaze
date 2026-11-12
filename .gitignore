@@ -3,3 +3,11 @@ __pycache__/
 out/
 dist/
 *.zip
+
+# Artefak hasil generate (dibangun oleh build.sh / CI)
+src/rp/models/entity/ak47.geo.json
+src/rp/textures/items/ak47.png
+src/rp/textures/items/ak47_icon.png
+src/bp/pack_icon.png
+src/rp/pack_icon.png
+art/ak47_atlas.svg
