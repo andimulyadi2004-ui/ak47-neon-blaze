@@ -83,6 +83,44 @@ Output di `dist/`:
 
 `build.sh` selalu menjalankan `validate.py` dan **berhenti kalau ada error**.
 
+## Ambil add-on lewat Termux (`gh`)
+
+```bash
+pkg update && pkg install -y gh unzip
+gh auth login
+
+# folder Downloads Android
+termux-setup-storage
+mkdir -p ~/storage/downloads/AK47
+
+# unduh paket siap pasang
+gh release download v1.0.1 \
+  -R andimulyadi2004-ui/ak47-neon-blaze \
+  -p "AK47_NeonBlaze.mcaddon" \
+  -D ~/storage/downloads/AK47 --clobber
+
+ls -lh ~/storage/downloads/AK47
+```
+
+Ambil semua aset (BP, RP, dan paket gabungan) sekaligus:
+
+```bash
+gh release download v1.0.1 \
+  -R andimulyadi2004-ui/ak47-neon-blaze \
+  -D ~/storage/downloads/AK47 --clobber
+```
+
+Kalau ingin build sendiri dari source di Termux:
+
+```bash
+pkg install -y python git librsvg
+pip install cairosvg pillow
+gh repo clone andimulyadi2004-ui/ak47-neon-blaze
+cd ak47-neon-blaze && ./build.sh
+```
+
+Lalu buka `AK47_NeonBlaze.mcaddon` dari aplikasi Files → **Open with Minecraft**.
+
 ## Pasang di Minecraft
 
 1. Buka `AK47_NeonBlaze.mcaddon` → otomatis diimpor Minecraft.
@@ -98,9 +136,9 @@ Output di `dist/`:
 ## Resep
 
 ```
-Iron    Gold     Gold
-Iron    Stick    Stick
-Plank   Redstone Plank
+Iron   Gold   Gold
+Iron   Stick  Stick
+Plank  Redstone Plank
 ```
 
 (3×3 di crafting table; Iron = Iron Ingot, Gold = Gold Ingot, Plank = Oak Planks)
